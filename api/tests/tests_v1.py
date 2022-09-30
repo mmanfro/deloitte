@@ -137,6 +137,7 @@ class NotaBoletimTestCase(APITestCase):
 
         response = self.client.post(self.url, data, format="json")
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+
         self.assertEqual(float(response.json()["nota"]), 7.5)
 
         data = {

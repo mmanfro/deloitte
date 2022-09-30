@@ -26,10 +26,9 @@ class NotasBoletimSerializer(serializers.ModelSerializer):
     boletim_nome = serializers.CharField(source="boletim", read_only=True)
 
     def to_internal_value(self, data):
-        if type(data) != dict:
-            data._mutable = True
-            data["nota"] = locale_float(data["nota"])
-            data._mutable = False
+        temp_data = data.copy()
+        temp_data["nota"] = locale_float(data["nota"])
+        data = temp_data
 
         return super(NotasBoletimSerializer, self).to_internal_value(data)
 
