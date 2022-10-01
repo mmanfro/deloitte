@@ -9,4 +9,6 @@ Caso o navegador não seja aberto automaticamento, você pode acessar a aplicaç
 > Usuário: admin<br />
 > Senha: admin
 
+Existem algumas centenas de dados em arquivos JSON que podem ser carregados para a API via REST pelo link [http://127.0.0.1:8000/app/](http://127.0.0.1:8000/app/)
+
 Os objetos também podem ser acessados pelo painel admin do Django: [127.0.0.1:8000/admin](http://127.0.0.1:8000/admin/)
