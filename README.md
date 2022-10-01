@@ -1,6 +1,4 @@
 # Deloitte
-
-***
 Para instalar somente é necessário ter o Python instalado na máquina e executar o script [deploy.py](https://raw.githubusercontent.com/mmanfro/deloitte/main/deploy.py)<br />
 > <sup>O script foi testado no Windows 11 e Debian WSL com Python 3.10</sup>
 
@@ -11,7 +9,6 @@ Para instalar somente é necessário ter o Python instalado na máquina e execut
 > **Usuário**: admin<br />
 > **Senha**: admin
 
-***
 # Caso queira fazer o deploy manualmente:
 <ol>
   <li>Baixar o projeto para sua máquina</li>
@@ -25,7 +22,6 @@ Para instalar somente é necessário ter o Python instalado na máquina e execut
   <li>Acessar a aplicação no endereço http://127.0.0.1:8000/</li>
 </ol>
 
-***
 # Observações
 - Foi utilizado o ORM do Django para a criação das tabelas, porém tem também um script SQL de como eu as criaria manualmente no SQLite
 - Foram feitos alguns testes, que podem ser executados com `python manage.py test `
