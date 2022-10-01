@@ -1,0 +1,1252 @@
+[
+    {
+        "nota": 91,
+        "boletim": 8,
+        "disciplina": 10
+    },
+    {
+        "nota": 28,
+        "boletim": 8,
+        "disciplina": 4
+    },
+    {
+        "nota": 21,
+        "boletim": 46,
+        "disciplina": 7
+    },
+    {
+        "nota": 2,
+        "boletim": 42,
+        "disciplina": 7
+    },
+    {
+        "nota": 37,
+        "boletim": 18,
+        "disciplina": 10
+    },
+    {
+        "nota": 65,
+        "boletim": 17,
+        "disciplina": 8
+    },
+    {
+        "nota": 50,
+        "boletim": 30,
+        "disciplina": 9
+    },
+    {
+        "nota": 68,
+        "boletim": 27,
+        "disciplina": 8
+    },
+    {
+        "nota": 74,
+        "boletim": 25,
+        "disciplina": 2
+    },
+    {
+        "nota": 82,
+        "boletim": 43,
+        "disciplina": 6
+    },
+    {
+        "nota": 73,
+        "boletim": 20,
+        "disciplina": 4
+    },
+    {
+        "nota": 13,
+        "boletim": 44,
+        "disciplina": 10
+    },
+    {
+        "nota": 55,
+        "boletim": 39,
+        "disciplina": 7
+    },
+    {
+        "nota": 30,
+        "boletim": 28,
+        "disciplina": 9
+    },
+    {
+        "nota": 79,
+        "boletim": 6,
+        "disciplina": 4
+    },
+    {
+        "nota": 26,
+        "boletim": 11,
+        "disciplina": 6
+    },
+    {
+        "nota": 11,
+        "boletim": 25,
+        "disciplina": 5
+    },
+    {
+        "nota": 73,
+        "boletim": 24,
+        "disciplina": 11
+    },
+    {
+        "nota": 23,
+        "boletim": 48,
+        "disciplina": 12
+    },
+    {
+        "nota": 89,
+        "boletim": 5,
+        "disciplina": 3
+    },
+    {
+        "nota": 18,
+        "boletim": 16,
+        "disciplina": 1
+    },
+    {
+        "nota": 17,
+        "boletim": 39,
+        "disciplina": 7
+    },
+    {
+        "nota": 57,
+        "boletim": 11,
+        "disciplina": 6
+    },
+    {
+        "nota": 50,
+        "boletim": 9,
+        "disciplina": 8
+    },
+    {
+        "nota": 61,
+        "boletim": 11,
+        "disciplina": 11
+    },
+    {
+        "nota": 79,
+        "boletim": 8,
+        "disciplina": 3
+    },
+    {
+        "nota": 90,
+        "boletim": 41,
+        "disciplina": 3
+    },
+    {
+        "nota": 33,
+        "boletim": 43,
+        "disciplina": 6
+    },
+    {
+        "nota": 26,
+        "boletim": 1,
+        "disciplina": 6
+    },
+    {
+        "nota": 4,
+        "boletim": 23,
+        "disciplina": 7
+    },
+    {
+        "nota": 32,
+        "boletim": 36,
+        "disciplina": 6
+    },
+    {
+        "nota": 37,
+        "boletim": 20,
+        "disciplina": 4
+    },
+    {
+        "nota": 9,
+        "boletim": 14,
+        "disciplina": 12
+    },
+    {
+        "nota": 11,
+        "boletim": 30,
+        "disciplina": 8
+    },
+    {
+        "nota": 67,
+        "boletim": 10,
+        "disciplina": 12
+    },
+    {
+        "nota": 46,
+        "boletim": 33,
+        "disciplina": 3
+    },
+    {
+        "nota": 75,
+        "boletim": 4,
+        "disciplina": 3
+    },
+    {
+        "nota": 17,
+        "boletim": 6,
+        "disciplina": 11
+    },
+    {
+        "nota": 25,
+        "boletim": 49,
+        "disciplina": 11
+    },
+    {
+        "nota": 91,
+        "boletim": 22,
+        "disciplina": 4
+    },
+    {
+        "nota": 71,
+        "boletim": 42,
+        "disciplina": 11
+    },
+    {
+        "nota": 38,
+        "boletim": 23,
+        "disciplina": 8
+    },
+    {
+        "nota": 35,
+        "boletim": 49,
+        "disciplina": 11
+    },
+    {
+        "nota": 89,
+        "boletim": 28,
+        "disciplina": 6
+    },
+    {
+        "nota": 26,
+        "boletim": 45,
+        "disciplina": 5
+    },
+    {
+        "nota": 34,
+        "boletim": 17,
+        "disciplina": 10
+    },
+    {
+        "nota": 29,
+        "boletim": 49,
+        "disciplina": 4
+    },
+    {
+        "nota": 40,
+        "boletim": 15,
+        "disciplina": 3
+    },
+    {
+        "nota": 13,
+        "boletim": 22,
+        "disciplina": 7
+    },
+    {
+        "nota": 40,
+        "boletim": 12,
+        "disciplina": 9
+    },
+    {
+        "nota": 8,
+        "boletim": 22,
+        "disciplina": 7
+    },
+    {
+        "nota": 39,
+        "boletim": 19,
+        "disciplina": 7
+    },
+    {
+        "nota": 96,
+        "boletim": 24,
+        "disciplina": 9
+    },
+    {
+        "nota": 20,
+        "boletim": 32,
+        "disciplina": 4
+    },
+    {
+        "nota": 85,
+        "boletim": 17,
+        "disciplina": 1
+    },
+    {
+        "nota": 51,
+        "boletim": 29,
+        "disciplina": 3
+    },
+    {
+        "nota": 34,
+        "boletim": 19,
+        "disciplina": 7
+    },
+    {
+        "nota": 17,
+        "boletim": 8,
+        "disciplina": 8
+    },
+    {
+        "nota": 84,
+        "boletim": 17,
+        "disciplina": 11
+    },
+    {
+        "nota": 74,
+        "boletim": 43,
+        "disciplina": 5
+    },
+    {
+        "nota": 79,
+        "boletim": 6,
+        "disciplina": 12
+    },
+    {
+        "nota": 40,
+        "boletim": 24,
+        "disciplina": 9
+    },
+    {
+        "nota": 37,
+        "boletim": 24,
+        "disciplina": 5
+    },
+    {
+        "nota": 79,
+        "boletim": 30,
+        "disciplina": 7
+    },
+    {
+        "nota": 30,
+        "boletim": 16,
+        "disciplina": 11
+    },
+    {
+        "nota": 85,
+        "boletim": 2,
+        "disciplina": 10
+    },
+    {
+        "nota": 74,
+        "boletim": 18,
+        "disciplina": 7
+    },
+    {
+        "nota": 6,
+        "boletim": 16,
+        "disciplina": 11
+    },
+    {
+        "nota": 48,
+        "boletim": 5,
+        "disciplina": 2
+    },
+    {
+        "nota": 88,
+        "boletim": 14,
+        "disciplina": 1
+    },
+    {
+        "nota": 62,
+        "boletim": 44,
+        "disciplina": 9
+    },
+    {
+        "nota": 60,
+        "boletim": 45,
+        "disciplina": 11
+    },
+    {
+        "nota": 21,
+        "boletim": 10,
+        "disciplina": 7
+    },
+    {
+        "nota": 39,
+        "boletim": 34,
+        "disciplina": 11
+    },
+    {
+        "nota": 46,
+        "boletim": 19,
+        "disciplina": 1
+    },
+    {
+        "nota": 8,
+        "boletim": 13,
+        "disciplina": 10
+    },
+    {
+        "nota": 6,
+        "boletim": 45,
+        "disciplina": 2
+    },
+    {
+        "nota": 62,
+        "boletim": 21,
+        "disciplina": 6
+    },
+    {
+        "nota": 62,
+        "boletim": 19,
+        "disciplina": 8
+    },
+    {
+        "nota": 58,
+        "boletim": 32,
+        "disciplina": 10
+    },
+    {
+        "nota": 47,
+        "boletim": 11,
+        "disciplina": 8
+    },
+    {
+        "nota": 58,
+        "boletim": 33,
+        "disciplina": 4
+    },
+    {
+        "nota": 31,
+        "boletim": 34,
+        "disciplina": 6
+    },
+    {
+        "nota": 65,
+        "boletim": 2,
+        "disciplina": 5
+    },
+    {
+        "nota": 72,
+        "boletim": 36,
+        "disciplina": 8
+    },
+    {
+        "nota": 29,
+        "boletim": 46,
+        "disciplina": 4
+    },
+    {
+        "nota": 9,
+        "boletim": 32,
+        "disciplina": 10
+    },
+    {
+        "nota": 97,
+        "boletim": 14,
+        "disciplina": 9
+    },
+    {
+        "nota": 90,
+        "boletim": 11,
+        "disciplina": 5
+    },
+    {
+        "nota": 88,
+        "boletim": 34,
+        "disciplina": 7
+    },
+    {
+        "nota": 3,
+        "boletim": 22,
+        "disciplina": 8
+    },
+    {
+        "nota": 36,
+        "boletim": 34,
+        "disciplina": 2
+    },
+    {
+        "nota": 95,
+        "boletim": 30,
+        "disciplina": 10
+    },
+    {
+        "nota": 18,
+        "boletim": 49,
+        "disciplina": 3
+    },
+    {
+        "nota": 21,
+        "boletim": 36,
+        "disciplina": 10
+    },
+    {
+        "nota": 24,
+        "boletim": 7,
+        "disciplina": 5
+    },
+    {
+        "nota": 7,
+        "boletim": 12,
+        "disciplina": 4
+    },
+    {
+        "nota": 88,
+        "boletim": 27,
+        "disciplina": 8
+    },
+    {
+        "nota": 10,
+        "boletim": 26,
+        "disciplina": 5
+    },
+    {
+        "nota": 32,
+        "boletim": 45,
+        "disciplina": 2
+    },
+    {
+        "nota": 65,
+        "boletim": 3,
+        "disciplina": 4
+    },
+    {
+        "nota": 17,
+        "boletim": 33,
+        "disciplina": 6
+    },
+    {
+        "nota": 40,
+        "boletim": 41,
+        "disciplina": 10
+    },
+    {
+        "nota": 3,
+        "boletim": 39,
+        "disciplina": 6
+    },
+    {
+        "nota": 16,
+        "boletim": 15,
+        "disciplina": 3
+    },
+    {
+        "nota": 79,
+        "boletim": 20,
+        "disciplina": 2
+    },
+    {
+        "nota": 44,
+        "boletim": 33,
+        "disciplina": 7
+    },
+    {
+        "nota": 66,
+        "boletim": 17,
+        "disciplina": 8
+    },
+    {
+        "nota": 29,
+        "boletim": 35,
+        "disciplina": 2
+    },
+    {
+        "nota": 80,
+        "boletim": 14,
+        "disciplina": 8
+    },
+    {
+        "nota": 64,
+        "boletim": 38,
+        "disciplina": 3
+    },
+    {
+        "nota": 63,
+        "boletim": 25,
+        "disciplina": 6
+    },
+    {
+        "nota": 85,
+        "boletim": 37,
+        "disciplina": 10
+    },
+    {
+        "nota": 12,
+        "boletim": 10,
+        "disciplina": 5
+    },
+    {
+        "nota": 34,
+        "boletim": 25,
+        "disciplina": 9
+    },
+    {
+        "nota": 25,
+        "boletim": 23,
+        "disciplina": 7
+    },
+    {
+        "nota": 97,
+        "boletim": 35,
+        "disciplina": 3
+    },
+    {
+        "nota": 99,
+        "boletim": 38,
+        "disciplina": 8
+    },
+    {
+        "nota": 9,
+        "boletim": 47,
+        "disciplina": 5
+    },
+    {
+        "nota": 54,
+        "boletim": 4,
+        "disciplina": 2
+    },
+    {
+        "nota": 80,
+        "boletim": 19,
+        "disciplina": 2
+    },
+    {
+        "nota": 11,
+        "boletim": 9,
+        "disciplina": 7
+    },
+    {
+        "nota": 20,
+        "boletim": 26,
+        "disciplina": 9
+    },
+    {
+        "nota": 43,
+        "boletim": 22,
+        "disciplina": 6
+    },
+    {
+        "nota": 40,
+        "boletim": 48,
+        "disciplina": 2
+    },
+    {
+        "nota": 72,
+        "boletim": 21,
+        "disciplina": 7
+    },
+    {
+        "nota": 44,
+        "boletim": 13,
+        "disciplina": 4
+    },
+    {
+        "nota": 84,
+        "boletim": 17,
+        "disciplina": 3
+    },
+    {
+        "nota": 68,
+        "boletim": 18,
+        "disciplina": 2
+    },
+    {
+        "nota": 79,
+        "boletim": 18,
+        "disciplina": 9
+    },
+    {
+        "nota": 98,
+        "boletim": 25,
+        "disciplina": 9
+    },
+    {
+        "nota": 8,
+        "boletim": 3,
+        "disciplina": 1
+    },
+    {
+        "nota": 59,
+        "boletim": 31,
+        "disciplina": 6
+    },
+    {
+        "nota": 37,
+        "boletim": 11,
+        "disciplina": 2
+    },
+    {
+        "nota": 54,
+        "boletim": 43,
+        "disciplina": 3
+    },
+    {
+        "nota": 88,
+        "boletim": 49,
+        "disciplina": 12
+    },
+    {
+        "nota": 98,
+        "boletim": 41,
+        "disciplina": 3
+    },
+    {
+        "nota": 73,
+        "boletim": 18,
+        "disciplina": 5
+    },
+    {
+        "nota": 26,
+        "boletim": 35,
+        "disciplina": 7
+    },
+    {
+        "nota": 32,
+        "boletim": 17,
+        "disciplina": 10
+    },
+    {
+        "nota": 73,
+        "boletim": 50,
+        "disciplina": 9
+    },
+    {
+        "nota": 2,
+        "boletim": 16,
+        "disciplina": 12
+    },
+    {
+        "nota": 61,
+        "boletim": 42,
+        "disciplina": 4
+    },
+    {
+        "nota": 26,
+        "boletim": 1,
+        "disciplina": 7
+    },
+    {
+        "nota": 95,
+        "boletim": 19,
+        "disciplina": 5
+    },
+    {
+        "nota": 74,
+        "boletim": 35,
+        "disciplina": 4
+    },
+    {
+        "nota": 70,
+        "boletim": 34,
+        "disciplina": 4
+    },
+    {
+        "nota": 4,
+        "boletim": 10,
+        "disciplina": 9
+    },
+    {
+        "nota": 52,
+        "boletim": 25,
+        "disciplina": 9
+    },
+    {
+        "nota": 6,
+        "boletim": 8,
+        "disciplina": 4
+    },
+    {
+        "nota": 45,
+        "boletim": 43,
+        "disciplina": 6
+    },
+    {
+        "nota": 20,
+        "boletim": 20,
+        "disciplina": 11
+    },
+    {
+        "nota": 59,
+        "boletim": 38,
+        "disciplina": 11
+    },
+    {
+        "nota": 45,
+        "boletim": 34,
+        "disciplina": 3
+    },
+    {
+        "nota": 51,
+        "boletim": 29,
+        "disciplina": 2
+    },
+    {
+        "nota": 37,
+        "boletim": 39,
+        "disciplina": 6
+    },
+    {
+        "nota": 62,
+        "boletim": 44,
+        "disciplina": 2
+    },
+    {
+        "nota": 38,
+        "boletim": 2,
+        "disciplina": 2
+    },
+    {
+        "nota": 89,
+        "boletim": 40,
+        "disciplina": 11
+    },
+    {
+        "nota": 38,
+        "boletim": 41,
+        "disciplina": 12
+    },
+    {
+        "nota": 26,
+        "boletim": 45,
+        "disciplina": 3
+    },
+    {
+        "nota": 56,
+        "boletim": 42,
+        "disciplina": 2
+    },
+    {
+        "nota": 53,
+        "boletim": 3,
+        "disciplina": 10
+    },
+    {
+        "nota": 10,
+        "boletim": 22,
+        "disciplina": 7
+    },
+    {
+        "nota": 64,
+        "boletim": 47,
+        "disciplina": 8
+    },
+    {
+        "nota": 20,
+        "boletim": 23,
+        "disciplina": 5
+    },
+    {
+        "nota": 53,
+        "boletim": 32,
+        "disciplina": 11
+    },
+    {
+        "nota": 78,
+        "boletim": 47,
+        "disciplina": 10
+    },
+    {
+        "nota": 30,
+        "boletim": 39,
+        "disciplina": 11
+    },
+    {
+        "nota": 79,
+        "boletim": 5,
+        "disciplina": 8
+    },
+    {
+        "nota": 74,
+        "boletim": 40,
+        "disciplina": 2
+    },
+    {
+        "nota": 13,
+        "boletim": 48,
+        "disciplina": 6
+    },
+    {
+        "nota": 70,
+        "boletim": 49,
+        "disciplina": 1
+    },
+    {
+        "nota": 12,
+        "boletim": 22,
+        "disciplina": 10
+    },
+    {
+        "nota": 60,
+        "boletim": 36,
+        "disciplina": 10
+    },
+    {
+        "nota": 72,
+        "boletim": 11,
+        "disciplina": 5
+    },
+    {
+        "nota": 22,
+        "boletim": 47,
+        "disciplina": 11
+    },
+    {
+        "nota": 56,
+        "boletim": 15,
+        "disciplina": 8
+    },
+    {
+        "nota": 95,
+        "boletim": 47,
+        "disciplina": 9
+    },
+    {
+        "nota": 89,
+        "boletim": 49,
+        "disciplina": 7
+    },
+    {
+        "nota": 79,
+        "boletim": 49,
+        "disciplina": 4
+    },
+    {
+        "nota": 90,
+        "boletim": 22,
+        "disciplina": 3
+    },
+    {
+        "nota": 48,
+        "boletim": 25,
+        "disciplina": 8
+    },
+    {
+        "nota": 74,
+        "boletim": 5,
+        "disciplina": 8
+    },
+    {
+        "nota": 60,
+        "boletim": 32,
+        "disciplina": 11
+    },
+    {
+        "nota": 3,
+        "boletim": 25,
+        "disciplina": 3
+    },
+    {
+        "nota": 53,
+        "boletim": 35,
+        "disciplina": 5
+    },
+    {
+        "nota": 39,
+        "boletim": 31,
+        "disciplina": 5
+    },
+    {
+        "nota": 58,
+        "boletim": 36,
+        "disciplina": 8
+    },
+    {
+        "nota": 47,
+        "boletim": 8,
+        "disciplina": 7
+    },
+    {
+        "nota": 54,
+        "boletim": 27,
+        "disciplina": 5
+    },
+    {
+        "nota": 38,
+        "boletim": 7,
+        "disciplina": 6
+    },
+    {
+        "nota": 46,
+        "boletim": 14,
+        "disciplina": 2
+    },
+    {
+        "nota": 89,
+        "boletim": 20,
+        "disciplina": 11
+    },
+    {
+        "nota": 80,
+        "boletim": 2,
+        "disciplina": 2
+    },
+    {
+        "nota": 72,
+        "boletim": 9,
+        "disciplina": 3
+    },
+    {
+        "nota": 71,
+        "boletim": 44,
+        "disciplina": 4
+    },
+    {
+        "nota": 31,
+        "boletim": 47,
+        "disciplina": 12
+    },
+    {
+        "nota": 14,
+        "boletim": 28,
+        "disciplina": 7
+    },
+    {
+        "nota": 84,
+        "boletim": 2,
+        "disciplina": 7
+    },
+    {
+        "nota": 29,
+        "boletim": 36,
+        "disciplina": 6
+    },
+    {
+        "nota": 93,
+        "boletim": 29,
+        "disciplina": 10
+    },
+    {
+        "nota": 26,
+        "boletim": 47,
+        "disciplina": 6
+    },
+    {
+        "nota": 18,
+        "boletim": 35,
+        "disciplina": 6
+    },
+    {
+        "nota": 30,
+        "boletim": 48,
+        "disciplina": 12
+    },
+    {
+        "nota": 81,
+        "boletim": 14,
+        "disciplina": 8
+    },
+    {
+        "nota": 88,
+        "boletim": 26,
+        "disciplina": 2
+    },
+    {
+        "nota": 1,
+        "boletim": 42,
+        "disciplina": 10
+    },
+    {
+        "nota": 73,
+        "boletim": 46,
+        "disciplina": 11
+    },
+    {
+        "nota": 89,
+        "boletim": 50,
+        "disciplina": 4
+    },
+    {
+        "nota": 22,
+        "boletim": 2,
+        "disciplina": 2
+    },
+    {
+        "nota": 88,
+        "boletim": 29,
+        "disciplina": 1
+    },
+    {
+        "nota": 73,
+        "boletim": 4,
+        "disciplina": 6
+    },
+    {
+        "nota": 82,
+        "boletim": 7,
+        "disciplina": 11
+    },
+    {
+        "nota": 53,
+        "boletim": 28,
+        "disciplina": 8
+    },
+    {
+        "nota": 62,
+        "boletim": 4,
+        "disciplina": 9
+    },
+    {
+        "nota": 84,
+        "boletim": 39,
+        "disciplina": 2
+    },
+    {
+        "nota": 58,
+        "boletim": 21,
+        "disciplina": 10
+    },
+    {
+        "nota": 58,
+        "boletim": 47,
+        "disciplina": 10
+    },
+    {
+        "nota": 90,
+        "boletim": 13,
+        "disciplina": 6
+    },
+    {
+        "nota": 35,
+        "boletim": 21,
+        "disciplina": 8
+    },
+    {
+        "nota": 35,
+        "boletim": 39,
+        "disciplina": 4
+    },
+    {
+        "nota": 39,
+        "boletim": 13,
+        "disciplina": 2
+    },
+    {
+        "nota": 94,
+        "boletim": 6,
+        "disciplina": 6
+    },
+    {
+        "nota": 14,
+        "boletim": 10,
+        "disciplina": 6
+    },
+    {
+        "nota": 71,
+        "boletim": 46,
+        "disciplina": 8
+    },
+    {
+        "nota": 38,
+        "boletim": 46,
+        "disciplina": 2
+    },
+    {
+        "nota": 77,
+        "boletim": 41,
+        "disciplina": 9
+    },
+    {
+        "nota": 45,
+        "boletim": 16,
+        "disciplina": 10
+    },
+    {
+        "nota": 19,
+        "boletim": 44,
+        "disciplina": 3
+    },
+    {
+        "nota": 86,
+        "boletim": 48,
+        "disciplina": 4
+    },
+    {
+        "nota": 38,
+        "boletim": 4,
+        "disciplina": 4
+    },
+    {
+        "nota": 74,
+        "boletim": 41,
+        "disciplina": 8
+    },
+    {
+        "nota": 92,
+        "boletim": 23,
+        "disciplina": 4
+    },
+    {
+        "nota": 26,
+        "boletim": 14,
+        "disciplina": 2
+    },
+    {
+        "nota": 25,
+        "boletim": 14,
+        "disciplina": 3
+    },
+    {
+        "nota": 11,
+        "boletim": 31,
+        "disciplina": 3
+    },
+    {
+        "nota": 81,
+        "boletim": 44,
+        "disciplina": 6
+    },
+    {
+        "nota": 63,
+        "boletim": 11,
+        "disciplina": 4
+    },
+    {
+        "nota": 100,
+        "boletim": 15,
+        "disciplina": 5
+    },
+    {
+        "nota": 18,
+        "boletim": 44,
+        "disciplina": 4
+    },
+    {
+        "nota": 4,
+        "boletim": 22,
+        "disciplina": 1
+    },
+    {
+        "nota": 87,
+        "boletim": 1,
+        "disciplina": 5
+    },
+    {
+        "nota": 82,
+        "boletim": 45,
+        "disciplina": 11
+    },
+    {
+        "nota": 73,
+        "boletim": 12,
+        "disciplina": 4
+    },
+    {
+        "nota": 13,
+        "boletim": 44,
+        "disciplina": 5
+    },
+    {
+        "nota": 68,
+        "boletim": 49,
+        "disciplina": 3
+    },
+    {
+        "nota": 85,
+        "boletim": 21,
+        "disciplina": 6
+    },
+    {
+        "nota": 69,
+        "boletim": 16,
+        "disciplina": 7
+    },
+    {
+        "nota": 3,
+        "boletim": 48,
+        "disciplina": 2
+    }
+]

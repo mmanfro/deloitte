@@ -1,16 +1,16 @@
 import email
+
+from api.utils import locale_float
 from django.conf import settings
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 from django.db.models.signals import post_save, pre_save
 from django.dispatch import receiver
 from django.forms import ValidationError
+from django.urls import reverse
 from django.utils.timezone import datetime
 from django.utils.translation import gettext_lazy as _
 from rest_framework.authtoken.models import Token
-from django.urls import reverse
-
-from api.utils import locale_float
 
 
 class Aluno(models.Model):
@@ -39,6 +39,9 @@ class Aluno(models.Model):
         blank=False,
     )
 
+    class Meta:
+        ordering = ["nome"]
+
     def __str__(self) -> str:
         return self.nome
 
@@ -57,6 +60,9 @@ class Disciplina(models.Model):
         _("carga horária"), validators=[MinValueValidator(0), MinValueValidator(9999)]
     )
 
+    class Meta:
+        ordering = ["nome"]
+
     def __str__(self) -> str:
         return self.nome
 
@@ -71,6 +77,7 @@ class Boletim(models.Model):
     class Meta:
         verbose_name_plural = "Boletins"
         unique_together = ("aluno", "data_entrega")
+        ordering = ["-data_entrega"]
 
     def __str__(self) -> str:
         return f"{self.aluno} | {self.data_entrega}"
@@ -96,6 +103,7 @@ class NotasBoletim(models.Model):
 
     class Meta:
         verbose_name_plural = "Notas dos Boletins"
+        ordering = ["-boletim"]
 
     def __str__(self) -> str:
         return f"{self.disciplina} - {self.nota}"

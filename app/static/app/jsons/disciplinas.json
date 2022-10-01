@@ -1,0 +1,54 @@
+[
+    {
+        "nome": "Matemática",
+        "carga_horaria": 80
+    },
+    {
+        "nome": "Física",
+        "carga_horaria": 80
+    },
+    {
+        "nome": "Química",
+        "carga_horaria": 80
+    },
+    {
+        "nome": "Estruturas de dados",
+        "carga_horaria": 40
+    },
+    {
+        "nome": "C++",
+        "carga_horaria": 120
+    },
+    {
+        "nome": "Python",
+        "carga_horaria": 80
+    },
+    {
+        "nome": "Go (Golang)",
+        "carga_horaria": 80
+    },
+    {
+        "nome": "Geografia",
+        "carga_horaria": 40
+    },
+    {
+        "nome": "História do Brasil",
+        "carga_horaria": 32
+    },
+    {
+        "nome": "Empreendedorismo",
+        "carga_horaria": 60
+    },
+    {
+        "nome": "Literatura",
+        "carga_horaria": 80
+    },
+    {
+        "nome": "Informática",
+        "carga_horaria": 160
+    },
+    {
+        "nome": "Música",
+        "carga_horaria": 72
+    }
+]

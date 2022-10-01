@@ -1,8 +1,8 @@
-from rest_framework import viewsets, permissions, status
+from app.models import *
+from rest_framework import permissions, status, viewsets
 from rest_framework.response import Response
 
 from api.serializers import *
-from app.models import *
 
 
 class AlunoViewSet(viewsets.ModelViewSet):

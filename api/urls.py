@@ -11,5 +11,5 @@ router.register("boletim", v.BoletimViewSet, basename="boletim")
 router.register("notas_boletim", v.NotasBoletimViewSet, basename="notas_boletim")
 
 urlpatterns = [
-    path("", include(router.urls)),
+    path("v1/", include(router.urls)),
 ]
