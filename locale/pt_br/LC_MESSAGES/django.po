@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-01 14:28-0300\n"
+"POT-Creation-Date: 2022-10-01 19:39-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #: .\app\models.py:18
 msgid "e-mail"
 msgstr "e-mail"
+
+#: .\app\models.py:19
+msgid "E-mail deve ser único"
+msgstr "E-mail deve ser único"
 
 #: .\app\models.py:28 .\app\models.py:51
 msgid "nome"
@@ -33,15 +38,15 @@ msgstr "data de nascimento"
 msgid "carga horária"
 msgstr "carga horária"
 
-#: .\app\models.py:75
+#: .\app\models.py:73
 msgid "data de entrega"
 msgstr "data de entrega"
 
-#: .\app\models.py:96
+#: .\app\models.py:94
 msgid "nota"
 msgstr "nota"
 
-#: .\app\models.py:115
+#: .\app\models.py:113
 msgid "Data de nascimento no futuro."
 msgstr "Data de nascimento no futuro."
 
@@ -49,6 +54,10 @@ msgstr "Data de nascimento no futuro."
 msgid "Index"
 msgstr "Index"
 
-#: .\app\templates\app\index.html:16
+#: .\app\templates\app\index.html:40
 msgid "Gerar dados via REST"
 msgstr "Gerar dados via REST"
+
+#: .\app\views.py:93
+msgid "Dados gerados!"
+msgstr "Dados gerados!"
