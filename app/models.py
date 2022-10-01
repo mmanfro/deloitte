@@ -16,7 +16,7 @@ from rest_framework.authtoken.models import Token
 class Aluno(models.Model):
     email = models.EmailField(
         _("e-mail"),
-        help_text="e-mail deve ser único",
+        help_text=_("E-mail deve ser único"),
         blank=False,
         null=False,
         unique=True,
@@ -68,9 +68,7 @@ class Disciplina(models.Model):
 
 
 class Boletim(models.Model):
-    aluno = models.ForeignKey(
-        Aluno, null=False, blank=False, on_delete=models.DO_NOTHING
-    )
+    aluno = models.ForeignKey(Aluno, null=False, blank=False, on_delete=models.CASCADE)
 
     data_entrega = models.DateTimeField(_("data de entrega"), null=False, blank=False)
 
@@ -85,7 +83,7 @@ class Boletim(models.Model):
 
 class NotasBoletim(models.Model):
     disciplina = models.ForeignKey(
-        Disciplina, null=False, blank=False, on_delete=models.DO_NOTHING
+        Disciplina, null=False, blank=False, on_delete=models.CASCADE
     )
 
     boletim = models.ForeignKey(

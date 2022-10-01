@@ -6,8 +6,8 @@ from rest_framework.authtoken import views as rf_views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("app/", include("app.urls", namespace="app")),
-    path("api/", include("api.urls", namespace="api")),
+    path("", include("app.urls", namespace="app")),
+    path("api/v1/", include("api.v1.urls", namespace="api_v1")),
 ]
 
 urlpatterns += [

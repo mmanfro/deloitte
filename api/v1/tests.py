@@ -1,5 +1,5 @@
 import pytz
-from api.serializers import *
+from api.v1.serializers import *
 from app.models import *
 from django.contrib.auth.models import User
 from django.urls import reverse
@@ -35,7 +35,7 @@ def dummyBoletim():
 
 class AlunoTestCase(APITestCase):
     def setUp(self):
-        self.url = reverse("v1:aluno-list")
+        self.url = reverse("api_v1:aluno-list")
         self.user = User.objects.create(username="test")
         self.user.set_password("test")
         self.user.save()
@@ -90,7 +90,7 @@ class AlunoTestCase(APITestCase):
 
 class NotaBoletimTestCase(APITestCase):
     def setUp(self):
-        self.url = reverse("v1:notas_boletim-list")
+        self.url = reverse("api_v1:notas_boletim-list")
         self.user = User.objects.create(username="test")
         self.user.set_password("test")
         self.user.save()

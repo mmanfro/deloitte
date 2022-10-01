@@ -2,7 +2,9 @@ from app.models import *
 from rest_framework import permissions, status, viewsets
 from rest_framework.response import Response
 
-from api.serializers import *
+import api.v1.serializers as v1
+import api.v1.serializers as last
+from api.utils import get_version
 
 
 class AlunoViewSet(viewsets.ModelViewSet):
@@ -14,9 +16,14 @@ class AlunoViewSet(viewsets.ModelViewSet):
     - **email**: email do aluno  ` ?email=<email> `
     """
 
-    serializer_class = AlunoSerializer
+    serializer_class = v1.AlunoSerializer
     permission_classes = [permissions.IsAuthenticated]
     queryset = Aluno.objects.all()
+
+    def get_serializer_class(self):
+        if get_version(self.request.version) == "v1":
+            return v1.AlunoSerializer
+        return last.AlunoSerializer
 
     def get_queryset(self):
         queryset = self.queryset
@@ -32,8 +39,12 @@ class DisciplinaViewSet(viewsets.ModelViewSet):
 
     permission_classes = [permissions.IsAuthenticated]
     queryset = Disciplina.objects.all()
-    serializer_class = DisciplinaSerializer
     lookup_field = "nome"
+
+    def get_serializer_class(self):
+        if self.request.version == "v1":
+            return v1.DisciplinaSerializer
+        return last.DisciplinaSerializer
 
 
 class BoletimViewSet(viewsets.ModelViewSet):
@@ -47,7 +58,11 @@ class BoletimViewSet(viewsets.ModelViewSet):
 
     permission_classes = [permissions.IsAuthenticated]
     queryset = Boletim.objects.all()
-    serializer_class = BoletimSerializer
+
+    def get_serializer_class(self):
+        if self.request.version == "v1":
+            return v1.BoletimSerializer
+        return last.BoletimSerializer
 
     def get_queryset(self):
         queryset = self.queryset
@@ -77,7 +92,11 @@ class NotasBoletimViewSet(viewsets.ModelViewSet):
 
     permission_classes = [permissions.IsAuthenticated]
     queryset = NotasBoletim.objects.all()
-    serializer_class = NotasBoletimSerializer
+
+    def get_serializer_class(self):
+        if self.request.version == "v1":
+            return v1.NotasBoletimSerializer
+        return last.NotasBoletimSerializer
 
     def get_queryset(self):
         queryset = self.queryset
