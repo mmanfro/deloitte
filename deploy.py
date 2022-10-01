@@ -65,7 +65,9 @@ subprocess.check_call(
         "--no-input",
     ]
 )
-subprocess.check_call([VENV_PYTHON, rf"{PROJECT_FOLDER}\manage.py", "migrate"])
+subprocess.check_call(
+    [VENV_PYTHON, f"{PROJECT_FOLDER}{os.path.sep}manage.py", "migrate"]
+)
 subprocess.check_call(
     [
         VENV_PYTHON,
