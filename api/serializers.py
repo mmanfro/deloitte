@@ -33,5 +33,5 @@ class NotasBoletimSerializer(serializers.ModelSerializer):
         return super(NotasBoletimSerializer, self).to_internal_value(data)
 
     class Meta:
-        model = NotaBoletim
+        model = NotasBoletim
         fields = "__all__"

@@ -11,7 +11,7 @@ class AlunoViewSet(viewsets.ModelViewSet):
 
     ---
     ## Filtros:
-    - **email**: email do aluno  ` http://127.0.0.1:8000/api/v1/alunos/?email=<email> `
+    - **email**: email do aluno  ` ?email=<email> `
     """
 
     serializer_class = AlunoSerializer
@@ -42,7 +42,7 @@ class BoletimViewSet(viewsets.ModelViewSet):
 
     ---
     ## Filtros:
-    - **aluno**: id do aluno  ` http://127.0.0.1:8000/api/v1/boletins/?aluno=<id> `
+    - **aluno**: id do aluno  ` ?aluno=<id> `
     """
 
     permission_classes = [permissions.IsAuthenticated]
@@ -67,15 +67,16 @@ class NotasBoletimViewSet(viewsets.ModelViewSet):
 
     ---
     ## Filtros:
-    ` http://127.0.0.1:8000/api/v1/notas_boletins/?aluno=<id>&disciplina=<id>&nota=<valor_inicial>e<valor_final> `
+    ` ?aluno=<id>&disciplina=<id>&boletim=<id>&nota=<valor_inicial>e<valor_final> `
 
-    - **aluno**: id do aluno  ` http://127.0.0.1:8000/api/v1/notas_boletins/?aluno=<id> `
-    - **disciplina**: id da disciplina  ` http://127.0.0.1:8000/api/v1/notas_boletins/?disciplina=<id> `
-    - **nota**: distância de valores, separados pela letra _e_  ` http://127.0.0.1:8000/api/v1/notas_boletins/?nota=<valor_inicial>e<valor_final> `
+    - **aluno**: id do aluno  ` ?aluno=<id> `
+    - **disciplina**: id da disciplina  ` ?disciplina=<id> `
+    - **boletim**: id do boletim  ` ?boletim=<id> `
+    - **nota**: distância de valores, separados pela letra _e_  ` ?nota=<valor_inicial>e<valor_final> `
     """
 
     permission_classes = [permissions.IsAuthenticated]
-    queryset = NotaBoletim.objects.all()
+    queryset = NotasBoletim.objects.all()
     serializer_class = NotasBoletimSerializer
 
     def get_queryset(self):
@@ -84,6 +85,8 @@ class NotasBoletimViewSet(viewsets.ModelViewSet):
             queryset = queryset.filter(boletim__aluno=self.request.GET["aluno"])
         if "disciplina" in self.request.GET:
             queryset = queryset.filter(disciplina=self.request.GET["disciplina"])
+        if "boletim" in self.request.GET:
+            queryset = queryset.filter(boletim=self.request.GET["boletim"])
         if "nota" in self.request.GET:
             valor_inicial, valor_final = self.request.GET["nota"].split("e")
             queryset = queryset.filter(nota__gte=valor_inicial, nota__lte=valor_final)

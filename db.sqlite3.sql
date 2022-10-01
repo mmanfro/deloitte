@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS aluno (
         typeof("nome") = "text"
         AND length("nome") <= 100
         AND typeof("email") = "text"
-        AND length("email") <= 100
+        AND length("email") <= 50
         AND "email" LIKE "%@%.%"
     )
 );

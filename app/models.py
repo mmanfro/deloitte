@@ -76,7 +76,7 @@ class Boletim(models.Model):
         return f"{self.aluno} | {self.data_entrega}"
 
 
-class NotaBoletim(models.Model):
+class NotasBoletim(models.Model):
     disciplina = models.ForeignKey(
         Disciplina, null=False, blank=False, on_delete=models.DO_NOTHING
     )
@@ -108,13 +108,13 @@ def check_dates(sender, instance, *args, **kwargs):
 
 
 def normalize_nota(sender, instance, *args, **kwargs):
-    if type(instance) == NotaBoletim:
+    if type(instance) == NotasBoletim:
         if instance.nota > 10:
             instance.nota = instance.nota / 10
 
 
 pre_save.connect(check_dates, sender=Aluno)
-pre_save.connect(normalize_nota, sender=NotaBoletim)
+pre_save.connect(normalize_nota, sender=NotasBoletim)
 
 
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)

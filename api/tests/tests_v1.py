@@ -107,7 +107,7 @@ class NotaBoletimTestCase(APITestCase):
         data = {}
         response = self.client.post(self.url, data, format="json")
         self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
-        self.assertEqual(NotaBoletim.objects.count(), 0)
+        self.assertEqual(NotasBoletim.objects.count(), 0)
 
     def test_create_nota_boletim(self):
         """
@@ -122,7 +122,7 @@ class NotaBoletimTestCase(APITestCase):
         response = self.client.post(self.url, data, format="json")
 
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
-        self.assertEqual(NotaBoletim.objects.count(), 1)
+        self.assertEqual(NotasBoletim.objects.count(), 1)
 
     def test_create_nota_boletim_converter_nota(self):
         """
@@ -150,4 +150,4 @@ class NotaBoletimTestCase(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(float(response.json()["nota"]), 7.5)
 
-        self.assertEqual(NotaBoletim.objects.count(), 2)
+        self.assertEqual(NotasBoletim.objects.count(), 2)
