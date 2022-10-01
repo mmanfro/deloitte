@@ -36,6 +36,7 @@ if find_file(PROJECT_FOLDER, "activate") is None:
     env = venv.EnvBuilder(with_pip=True)
     env.create(rf"{PROJECT_FOLDER}{os.path.sep}.venv")
 
+
 ###############################################################
 # Todos os comandos abaixo são executados no ambiente virtual #
 ###############################################################
