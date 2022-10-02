@@ -6,8 +6,8 @@ Para instalar somente é necessário ter o Python instalado na máquina e execut
 - Caso o navegador não seja aberto automaticamento, você pode acessar a aplicação manualmente no endereço [127.0.0.1:8000](http://127.0.0.1:8000/)
 - Existem algumas centenas de dados em arquivos JSON que podem ser carregados para a API via REST, apenas clicando num botão na página inicial
 - Um super-usuário já é criado automaticamente:
-> **Usuário**: admin<br />
-> **Senha**: admin
+  > **Usuário**: admin<br />
+  > **Senha**: admin
 
 # Caso queira fazer o deploy manualmente:
 <ol>
