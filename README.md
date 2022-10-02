@@ -8,6 +8,17 @@ Para instalar somente é necessário ter o Python instalado na máquina e execut
 - Um super-usuário já é criado automaticamente:
   > **Usuário**: admin<br />
   > **Senha**: admin
+- Para obter o token é só enviar uma requisição para http://127.0.0.1:8000/api-token-auth/ com o corpo:
+  ```
+  {
+    "username": "admin",
+    "password": "admin"
+  }
+  ```
+- O token é utilizado com o **HEADER** ` Authorization: Token <token> ` Exemplo:
+  ```
+  curl --header "Authorization: Token b17eeb47a0e5d68ad5aba5e2952e4969a615bef1" http://127.0.0.1:8000/api/v1/aluno/
+  ```
 
 # Caso queira fazer o deploy manualmente:
 <ol>
