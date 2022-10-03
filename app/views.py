@@ -1,6 +1,7 @@
 import json
 import logging
 import urllib
+from pathlib import Path
 
 from django.contrib.auth.models import User
 from django.contrib.staticfiles import finders
@@ -36,7 +37,9 @@ def generate_data_via_REST(request):
         "Authorization": f"Token {token}",
     }
 
-    alunos = json.load(open(finders.find("app/jsons/alunos.json"), encoding="utf-8"))
+    alunos = json.loads(
+        Path(finders.find("app/jsons/alunos.json")).read_text(encoding="utf-8")
+    )
     for aluno in alunos:
         data = json.dumps(aluno).encode()
         url = request.build_absolute_uri(reverse("api:aluno-list"))
@@ -48,8 +51,8 @@ def generate_data_via_REST(request):
             logging.error(e)
             continue
 
-    disciplinas = json.load(
-        open(finders.find("app/jsons/disciplinas.json"), encoding="utf-8")
+    disciplinas = json.loads(
+        Path(finders.find("app/jsons/disciplinas.json")).read_text(encoding="utf-8")
     )
     for disciplina in disciplinas:
         data = json.dumps(disciplina).encode()
@@ -62,8 +65,8 @@ def generate_data_via_REST(request):
             logging.error(e)
             continue
 
-    boletins = json.load(
-        open(finders.find("app/jsons/boletins.json"), encoding="utf-8")
+    boletins = json.loads(
+        Path(finders.find("app/jsons/boletins.json")).read_text(encoding="utf-8")
     )
     for boletim in boletins:
         data = json.dumps(boletim).encode()
@@ -76,8 +79,8 @@ def generate_data_via_REST(request):
             logging.error(e)
             continue
 
-    notas_boletim = json.load(
-        open(finders.find("app/jsons/notasBoletim.json"), encoding="utf-8")
+    notas_boletim = json.loads(
+        Path(finders.find("app/jsons/notasBoletim.json")).read_text(encoding="utf-8")
     )
     for nota_boletim in notas_boletim:
         data = json.dumps(nota_boletim).encode()
