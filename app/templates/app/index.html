@@ -1,27 +1,37 @@
-{% load i18n %}
-<!DOCTYPE html>
+{% load i18n %}<!DOCTYPE html>
 <html lang="pt">
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content="Free Web tutorials" />
-        <meta name="keywords" content="HTML, CSS, JavaScript" />
-        <meta name="author" content="John Doe" />
+        <meta
+            name="description"
+            content="Free Web tutorials"
+        />
+        <meta
+            name="keywords"
+            content="HTML, CSS, JavaScript"
+        />
+        <meta
+            name="author"
+            content="John Doe"
+        />
         <title>{% trans "Index" %}</title>
         <script src="https://unpkg.com/htmx.org@1.8.0"></script>
         <script type="text/javascript">
-            function loading(done=false) {
+            function loading(done = false) {
                 document.body.classList.add("loading")
-                document.querySelectorAll("*").forEach(element => {
-                    done ? element.classList.remove("loading") : element.classList.add("loading");
+                document.querySelectorAll("*").forEach((element) => {
+                    done
+                        ? element.classList.remove("loading")
+                        : element.classList.add("loading")
                 })
             }
 
-            htmx.on("htmx:beforeRequest", function(evt) {
+            htmx.on("htmx:beforeRequest", function (evt) {
                 loading()
             })
 
-            htmx.on("htmx:afterRequest", function(evt) {
-                loading(done=true)
+            htmx.on("htmx:afterRequest", function (evt) {
+                loading((done = true))
             })
         </script>
         <style>
@@ -30,8 +40,21 @@
             }
         </style>
     </head>
-    <body style="display:flex; flex-direction:column; justify-content:center; min-height:90vh;" hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
-        <a style="margin: 0 auto; padding: 20px"; href="/api/v1" target="_blank">Ir para visualização da API</a>
+    <body
+        style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 90vh;
+        "
+        hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
+    >
+        <a
+            style="margin: 0 auto; padding: 20px"
+            href="/api/v1"
+            target="_blank"
+            >Ir para visualização da API</a
+        >
         <button
             style="width: 200px; height: 50px; margin: 0 auto; cursor: pointer"
             hx-post="{% url 'app:generate_data_via_REST' %}"
@@ -39,6 +62,9 @@
         >
             {% trans "Gerar dados via REST" %}
         </button>
-        <span style="margin: 0 auto;" id="result"></span>
+        <span
+            style="margin: 0 auto"
+            id="result"
+        ></span>
     </body>
 </html>
