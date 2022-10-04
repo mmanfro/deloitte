@@ -1,10 +1,10 @@
-from app.models import *
 from rest_framework import permissions, status, viewsets
 from rest_framework.response import Response
 
 import api.v1.serializers as v1
 import api.v1.serializers as last
 from api.utils import get_version
+from app.models import *
 
 
 class AlunoViewSet(viewsets.ModelViewSet):

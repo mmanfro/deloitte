@@ -1,7 +1,8 @@
 from cgitb import lookup
 
-from app.models import *
 from rest_framework import serializers
+
+from app.models import *
 
 
 class AlunoSerializer(serializers.ModelSerializer):

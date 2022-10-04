@@ -1,6 +1,4 @@
 import pytz
-from api.v1.serializers import *
-from app.models import *
 from django.contrib.auth.models import User
 from django.urls import reverse
 from django.utils.timezone import datetime
@@ -9,6 +7,9 @@ from rest_framework import status
 from rest_framework.authtoken.models import Token
 from rest_framework.exceptions import ValidationError as DRFValidationError
 from rest_framework.test import APITestCase
+
+from api.v1.serializers import *
+from app.models import *
 
 
 def dummyAluno():
