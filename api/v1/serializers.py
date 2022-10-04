@@ -1,7 +1,6 @@
-from cgitb import lookup
-
 from rest_framework import serializers
 
+from api.utils import locale_float
 from app.models import *
 
 
